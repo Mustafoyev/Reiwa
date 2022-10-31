@@ -1593,9 +1593,11 @@ iframe {
 }
 @media only screen and (max-width: 420px) {
   .navigation__iframe {
+    display: block;
     width: 100%;
     max-width: 343px;
     height: 468px;
+    margin: 0 auto;
   }
 }
 .site-footer {
