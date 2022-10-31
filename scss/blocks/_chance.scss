@@ -1,0 +1,156 @@
+.chance {
+	padding-bottom: 100px;
+}
+
+.chance__title {
+	margin: 0;
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 66px;
+	text-align: center;
+	color: #222222;
+}
+
+.chance__list {
+	@include flexstarter;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	@include liststarter;
+}
+
+.chance__item {
+	width: 100%;
+	max-width: 605px;
+	padding: 30px;
+	border-radius: 40px;
+	background-image: url('../images/chance1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: cover;
+
+	&:nth-child(2) {
+		background-image: url('../images/chance2.png');
+	}
+}
+
+.chance__item-top {
+	display: block;
+	width: 100%;
+	max-width: 243px;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(32px);
+	border-radius: 125px;
+}
+
+.chance__item-titlewrapper {
+	width: 100%;
+	max-width: 447px;
+	padding-bottom: 268px;
+}
+
+.chance__item-title {
+	margin: 0;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 110%;
+	color: #ffffff;
+}
+
+.chance__item-links {
+	@include flexstarter;
+	justify-content: space-between;
+}
+
+.chance__item-link {
+	display: block;
+	width: 100%;
+	max-width: 268px;
+	padding: 28px 0 27px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	border: 1.5px solid #ffffff;
+	border-radius: 42px;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+@include max-width(1250px) {
+	.chance__item {
+		margin: 10px auto;
+	}
+}
+
+@include max-width(640px) {
+	.chance {
+		padding-bottom: 50px;
+	}
+
+	.chance__title {
+		margin-bottom: 20px;
+		font-size: 30px;
+		line-height: 34px;
+	}
+
+	.chance__item {
+		width: 100%;
+		max-width: 343px;
+		padding: 20px;
+		border-radius: 25px;
+		background-size: 100% 100%;
+	}
+
+	.chance__item-top {
+		width: 100%;
+		max-width: 201px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		padding: 12px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.chance__item-titlewrapper {
+		width: 100%;
+		max-width: 298px;
+		padding-bottom: 118px;
+	}
+
+	.chance__item-title {
+		font-size: 24px;
+		line-height: 29px;
+		text-align: center;
+	}
+
+	.chance__item-links {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.chance__item-link {
+		width: 100%;
+		max-width: 303px;
+		padding: 25px;
+		font-size: 22px;
+		line-height: 27px;
+	}
+
+	.chance__item-link--active {
+		margin-bottom: 10px;
+	}
+}

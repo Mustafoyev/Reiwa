@@ -1,12 +1,843 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./slick/slick.css" />
+		<link rel="stylesheet" href="./slick/slick-theme.css" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link
+			rel="icon"
+			type="image/svg"
+			sizes="36x40"
+			href="./images/fivicon.svg"
+		/>
+		<title>Reiwa-Home page</title>
+	</head>
 
-  <body></body>
+	<body>
+		<!-- site-header -->
+		<header class="site-header" id="header">
+			<div class="container">
+				<div class="site-header__inner">
+					<a class="logo" href="./index.html">
+						<img
+							class="logo__link"
+							src="./images/Logo.svg"
+							alt="Site logotype"
+							width="122"
+							height="40"
+						/>
+					</a>
+
+					<nav class="navbar">
+						<ul class="navbar__list">
+							<li class="navbar__item">
+								<a class="navbar__link" href="./results.html">Results</a>
+							</li>
+							<li class="navbar__item">
+								<a class="navbar__link" href="./document.html">Document</a>
+							</li>
+						</ul>
+						<a class="registration" href="#registration">Registration</a>
+					</nav>
+					<button class="burger-btn">
+						<span class="burger-btn__item"></span>
+						<span class="burger-btn__item"></span>
+						<span class="burger-btn__item"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<!-- /site-header -->
+
+		<!-- site-main -->
+		<main class="site-main">
+			<!-- up-btn -->
+			<div class="arrow-wrapper">
+				<a class="arrow" href="#header"></a>
+			</div>
+			<!-- /up-btn -->
+			<!-- hero-section -->
+			<section class="hero">
+				<div class="container">
+					<div class="hero__inner">
+						<h1 class="hero__title">
+							Do you like Japanese educational center?
+						</h1>
+						<div class="hero__text-wrapper">
+							<p class="hero__text">
+								Hueman Studio is an award-winning studio that combines strategy,
+								positioning, and people-centered design to create powerful
+								brands, websites, and visuals that engage your audience and help
+								you grow.
+							</p>
+
+							<a class="hero__registration" href="#registration"
+								>Registration</a
+							>
+						</div>
+						<div class="hero__video">
+							<a class="hero__video-link" href="https://youtu.be/sQtRLUgGx6s">
+								<picture>
+									<source
+										srcset="
+											https://i.ytimg.com/vi_webp/sQtRLUgGx6s/maxresdefault.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										class="hero__video-content"
+										src="https://i.ytimg.com/vi/sQtRLUgGx6s/maxresdefault.jpg"
+										alt="FIRST GRANT"
+									/>
+								</picture>
+							</a>
+							<button class="hero__video-btn" aria-label="play video">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									height="100"
+									width="100"
+									viewBox="-35.20005 -41.33325 305.0671 247.9995"
+								>
+									<path
+										class="svg-bg"
+										d="M229.763 25.817c-2.699-10.162-10.65-18.165-20.748-20.881C190.716 0 117.333 0 117.333 0S43.951 0 25.651 4.936C15.553 7.652 7.6 15.655 4.903 25.817 0 44.236 0 82.667 0 82.667s0 38.429 4.903 56.85C7.6 149.68 15.553 157.681 25.65 160.4c18.3 4.934 91.682 4.934 91.682 4.934s73.383 0 91.682-4.934c10.098-2.718 18.049-10.72 20.748-20.882 4.904-18.421 4.904-56.85 4.904-56.85s0-38.431-4.904-56.85"
+										fill="currentColor"
+									/>
+									<path
+										class="svg-center"
+										d="M93.333 117.559l61.333-34.89-61.333-34.894z"
+										fill="#fff"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--/hero-section  -->
+			<!-- marketing-section -->
+			<section class="marketing">
+				<div class="container">
+					<div class="marketing__inner">
+						<div class="marketing__title-wrapper">
+							<h2 class="marketing__title">
+								We’re the digital marketing team at Wednesday.
+							</h2>
+						</div>
+						<ul class="marketing__list">
+							<li class="marketing__item">
+								<img
+									class="marketing__item-img"
+									src="./images/marketing1.png"
+									alt="Winter image"
+									width="393"
+									height="343"
+								/>
+								<h3 class="marketing__item-title">In Winter</h3>
+								<div class="marketing__item-textwrapper">
+									<p class="marketing__item-text">
+										Subscribe and get your personal Trello board for the tasks.
+									</p>
+								</div>
+								<a class="marketing__item-link" href="./document.html"
+									>View more</a
+								>
+							</li>
+							<li class="marketing__item">
+								<img
+									class="marketing__item-img"
+									src="./images/marketing2.png"
+									alt="Spring image"
+									width="393"
+									height="343"
+								/>
+								<h3 class="marketing__item-title">In Spring</h3>
+								<div class="marketing__item-textwrapper">
+									<p class="marketing__item-text">
+										Subscribe and get your personal Trello board for the tasks.
+									</p>
+								</div>
+								<a class="marketing__item-link" href="./document.html"
+									>View more</a
+								>
+							</li>
+							<li class="marketing__item">
+								<img
+									class="marketing__item-img"
+									src="./images/marketing3.png"
+									alt="Summer image"
+									width="393"
+									height="343"
+								/>
+								<h3 class="marketing__item-title">In Summer</h3>
+								<div class="marketing__item-textwrapper">
+									<p class="marketing__item-text">
+										Subscribe and get your personal Trello board for the tasks.
+									</p>
+								</div>
+								<a class="marketing__item-link" href="./document.html"
+									>View more</a
+								>
+							</li>
+							<li class="marketing__item">
+								<img
+									class="marketing__item-img"
+									src="./images/marketing4.png"
+									alt="Summer image"
+									width="393"
+									height="343"
+								/>
+								<h3 class="marketing__item-title">In Autumn</h3>
+								<div class="marketing__item-textwrapper">
+									<p class="marketing__item-text">
+										Subscribe and get your personal Trello board for the tasks.
+									</p>
+								</div>
+								<a class="marketing__item-link" href="./document.html"
+									>View more</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--/marketing-section  -->
+			<!-- start-section -->
+			<section class="start">
+				<div class="container">
+					<div class="start__inner">
+						<div class="start__top-wrapper">
+							<h2 class="start__title">You have a chance start with us</h2>
+							<div class="start__text-wrapper">
+								<p class="start__text">
+									Located in the heart of Tampere in the Tulli business area,
+									Platform6 opened its doors in October 2020 and it will be home
+									to more than 50 resident startups and a natural meeting place
+									for the startup community.
+								</p>
+							</div>
+						</div>
+						<ul class="start__list">
+							<li class="start__item">
+								<div class="start__item-content">
+									<h3 class="start__item-title">Totally asynx</h3>
+									<p class="start__item-text">
+										Don’t like meetings. We don’t either so that we’ve outlawed
+										them completely
+									</p>
+								</div>
+							</li>
+							<li class="start__item">
+								<div class="start__item-content">
+									<h3 class="start__item-title">All in active collab</h3>
+									<p class="start__item-text">
+										Don’t like meetings. We don’t either so that we’ve outlawed
+										them completely
+									</p>
+								</div>
+							</li>
+							<li class="start__item">
+								<div class="start__item-content">
+									<h3 class="start__item-title">Want to become</h3>
+									<p class="start__item-text">
+										Don’t like meetings. We don’t either so that we’ve outlawed
+										them completely
+									</p>
+								</div>
+							</li>
+							<li class="start__item">
+								<div class="start__item-content">
+									<h3 class="start__item-title">Start organizing your</h3>
+									<p class="start__item-text">
+										Don’t like meetings. We don’t either so that we’ve outlawed
+										them completely
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--/start-section  -->
+			<!-- chance-section -->
+			<section class="chance">
+				<div class="container">
+					<div class="chance__inner">
+						<h2 class="chance__title">You have a chance start with us</h2>
+						<ul class="chance__list">
+							<li class="chance__item">
+								<span class="chance__item-top">5 month 1000$ dollar</span>
+								<div class="chance__item-titlewrapper">
+									<h3 class="chance__item-title">
+										Individual lessons with each child
+									</h3>
+								</div>
+								<div class="chance__item-links">
+									<a
+										class="chance__item-link chance__item-link--active"
+										href="#registration"
+										>Darsga yozilish</a
+									>
+									<a
+										class="chance__item-link"
+										href="https://www.youtube.com/channel/UC7RzMmi8ThDvw_z_fmaCp4w"
+										target="_blank"
+										>Video</a
+									>
+								</div>
+							</li>
+							<li class="chance__item">
+								<span class="chance__item-top">5 month 1000$ dollar</span>
+								<div class="chance__item-titlewrapper">
+									<h3 class="chance__item-title">
+										Individual lessons with each child
+									</h3>
+								</div>
+								<div class="chance__item-links">
+									<a
+										class="chance__item-link chance__item-link--active"
+										href="#registration"
+										>Darsga yozilish</a
+									>
+									<a
+										class="chance__item-link"
+										href="https://www.youtube.com/channel/UC7RzMmi8ThDvw_z_fmaCp4w"
+										target="_blank"
+										>Video</a
+									>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- /chance-section -->
+			<!-- students-section -->
+			<section class="students">
+				<div class="container">
+					<div class="students__inner">
+						<h2 class="students__title">Happy students with us</h2>
+						<ul class="students__list">
+							<li class="students__item">
+								<img
+									class="students__item-bg"
+									src="./images/student1.png"
+									alt="Student"
+									width="288"
+									height="447"
+								/>
+								<img
+									class="students__item-img"
+									src="./images/Logo-mini.svg"
+									alt="logotype"
+									width="92"
+									height="30"
+								/>
+								<div class="students__item-content">
+									<h3 class="students__item-title">Abdurasul Mamadaliyev</h3>
+									<span class="students__item-line"></span>
+									<p class="students__item-text">
+										Japanese digital univerities’s student
+									</p>
+								</div>
+							</li>
+							<li class="students__item">
+								<img
+									class="students__item-bg"
+									src="./images/student2.png"
+									alt="Student"
+									width="288"
+									height="447"
+								/>
+								<img
+									class="students__item-img"
+									src="./images/Logo-mini.svg"
+									alt="logotype"
+									width="92"
+									height="30"
+								/>
+								<div class="students__item-content">
+									<h3 class="students__item-title">Abdurasul Mamadaliyev</h3>
+									<span class="students__item-line"></span>
+									<p class="students__item-text">
+										Japanese digital univerities’s student
+									</p>
+								</div>
+							</li>
+							<li class="students__item">
+								<img
+									class="students__item-bg"
+									src="./images/student3.png"
+									alt="Student"
+									width="288"
+									height="447"
+								/>
+								<img
+									class="students__item-img"
+									src="./images/Logo-mini.svg"
+									alt="logotype"
+									width="92"
+									height="30"
+								/>
+								<div class="students__item-content">
+									<h3 class="students__item-title">Abdurasul Mamadaliyev</h3>
+									<span class="students__item-line"></span>
+									<p class="students__item-text">
+										Japanese digital univerities’s student
+									</p>
+								</div>
+							</li>
+							<li class="students__item">
+								<img
+									class="students__item-bg"
+									src="./images/student4.png"
+									alt="Student"
+									width="288"
+									height="447"
+								/>
+								<img
+									class="students__item-img"
+									src="./images/Logo-mini.svg"
+									alt="logotype"
+									width="92"
+									height="30"
+								/>
+								<div class="students__item-content">
+									<h3 class="students__item-title">Abdurasul Mamadaliyev</h3>
+									<span class="students__item-line"></span>
+									<p class="students__item-text">
+										Japanese digital univerities’s student
+									</p>
+								</div>
+							</li>
+							<li class="students__item">
+								<img
+									class="students__item-bg"
+									src="./images/student5.png"
+									alt="Student"
+									width="288"
+									height="447"
+								/>
+								<img
+									class="students__item-img"
+									src="./images/Logo-mini.svg"
+									alt="logotype"
+									width="92"
+									height="30"
+								/>
+								<div class="students__item-content">
+									<h3 class="students__item-title">Abdurasul Mamadaliyev</h3>
+									<span class="students__item-line"></span>
+									<p class="students__item-text">
+										Japanese digital univerities’s student
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- /students-section -->
+			<!-- info-section -->
+			<section class="info">
+				<div class="container">
+					<div class="info__inner">
+						<div class="info__title-wrapper">
+							<h2 class="info__title">Reiwa Information about lessons</h2>
+						</div>
+						<ul class="info__list">
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info1.png"
+									alt="students"
+									width="393"
+									height="515"
+								/>
+							</li>
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info2.png"
+									alt="students"
+									width="393"
+									height="515"
+								/>
+							</li>
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info3.png"
+									alt="students"
+									width="393"
+									height="515"
+								/>
+							</li>
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info4.png"
+									alt="students"
+									width="392"
+									height="515"
+								/>
+							</li>
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info5.png"
+									alt="students"
+									width="393"
+									height="515"
+								/>
+							</li>
+							<li class="info__item">
+								<img
+									class="info__item-img"
+									src="./images/info6.png"
+									alt="students"
+									width="393"
+									height="515"
+								/>
+							</li>
+						</ul>
+						<a class="info__link" href="./results.html">Barchasini ko’rish</a>
+					</div>
+				</div>
+			</section>
+			<!-- /info-section -->
+			<!-- partners-section -->
+			<section class="partners">
+				<div class="partners__inner">
+					<h2 class="partners__title">Our partners</h2>
+					<div class="partners__content">
+						<ul class="partners__top">
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo1.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo2.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo3.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo4.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo5.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__top-item">
+								<img
+									class="partners__top-itemimg"
+									src="./images/logo6.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+						</ul>
+						<ul class="partners__bottom" dir="rtl">
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo7.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo8.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo9.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo10.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo11.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+							<li class="partners__bottom-item">
+								<img
+									class="partners__bottom-itemimg"
+									src="./images/logo12.svg"
+									alt="Partners logotype"
+									width="258"
+									height="190"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- /partners-section -->
+			<!-- team-section -->
+			<section class="team" id="registration">
+				<div class="team__inner">
+					<div class="team__content-wrapper">
+						<div class="team__content">
+							<h2 class="team__content-title">
+								Bizning jamoaga qo’shilish niyatiz bormi
+							</h2>
+							<p class="team__content-text">
+								With the advancement of technology, the focus of User interfaces
+								has shifted from usage to look and feel to stand-out interfaces.
+								It’s affecting the way we engage with others
+							</p>
+						</div>
+						<form
+							class="team__form"
+							action="https://echo.htmlacademy.ru/"
+							method="post"
+						>
+							<input
+								class="name"
+								type="text"
+								aria-label="Enter your name"
+								placeholder="Name"
+								name="user_name"
+							/>
+							<div class="team__inputs">
+								<input
+									class="tel"
+									type="tel"
+									aria-label="Enter your phone number"
+									placeholder="Phone"
+									name="user_phone"
+								/>
+								<input
+									class="email"
+									type="email"
+									aria-label="Enter your email"
+									placeholder="Email"
+									name="user_email"
+								/>
+							</div>
+							<button class="send" type="submit">Send your information</button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<!-- /team-section -->
+			<!-- navigation-section -->
+			<section class="navigation">
+				<div class="navigation__inner">
+					<iframe
+						class="navigation__iframe"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.26099124534016!2d69.25395278442396!3d41.339809537491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b4978aa126d%3A0xd31c156129e42d9f!2sIQOS%20Store!5e0!3m2!1sru!2s!4v1667151632203!5m2!1sru!2s"
+						width="1380"
+						height="530"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</section>
+			<!-- /navigation-section -->
+		</main>
+		<!-- /site-main -->
+
+		<!-- site-footer -->
+		<footer class="site-footer">
+			<div class="container">
+				<div class="site-footer__inner">
+					<div class="site-footer__logo-content">
+						<a class="site-footer__logo" href="./index.html">
+							<img
+								class="site-footer__logoimg"
+								src="./images/Logo.svg"
+								alt="Logotype"
+								width="122"
+								height="40"
+							/>
+						</a>
+						<p class="site-footer__logo-text">
+							Toshkent shahri, Yunusobod tumani, Niyozbek yo’li
+						</p>
+					</div>
+					<div class="site-footer__center">
+						<div class="site-footer__navigations">
+							<strong class="site-footer__navigations-title"
+								>Navigations</strong
+							>
+							<ul class="site-footer__navigations-list">
+								<li class="site-footer__navigations-item">
+									<a class="site-footer__navigations-link" href="./results.html"
+										>Result</a
+									>
+								</li>
+								<li class="site-footer__navigations-item">
+									<a
+										class="site-footer__navigations-link"
+										href="./document.html"
+										>Document</a
+									>
+								</li>
+							</ul>
+						</div>
+						<div class="site-footer__social">
+							<strong class="site-footer__social-title">Social media</strong>
+							<ul class="site-footer__social-list">
+								<li class="site-footer__social-item">
+									<a
+										class="site-footer__social-link"
+										href="https://www.telegram.org"
+										target="_blank"
+									>
+										<img
+											class="site-footer__social-img"
+											src="./images/telegram-footer.svg"
+											alt="Telegram icon"
+											width="20"
+											height="20"
+										/>
+										Telegram
+									</a>
+								</li>
+								<li class="site-footer__social-item">
+									<a
+										class="site-footer__social-link"
+										href="https://www.instagram.com"
+										target="_blank"
+									>
+										<img
+											class="site-footer__social-img"
+											src="./images/instagram.svg"
+											alt="Instagram icon"
+											width="20"
+											height="20"
+										/>
+										Instagram
+									</a>
+								</li>
+								<li class="site-footer__social-item">
+									<a
+										class="site-footer__social-link"
+										href="https://www.facebook.com"
+										target="_blank"
+									>
+										<img
+											class="site-footer__social-img"
+											src="./images/facebook.svg"
+											alt="Facebook icon"
+											width="20"
+											height="20"
+										/>
+										Facebooks
+									</a>
+								</li>
+								<li class="site-footer__social-item">
+									<a
+										class="site-footer__social-link"
+										href="https://www.twitter.com"
+										target="_blank"
+									>
+										<img
+											class="site-footer__social-img"
+											src="./images/twitter.svg"
+											alt="Twitter icon"
+											width="20"
+											height="20"
+										/>
+										Twitter
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="site-footer__contacts">
+						<strong class="site-footer__contacts-title">Contacts</strong>
+						<ul class="site-footer__contacts-list">
+							<li class="site-footer__contacts-item">
+								<a class="site-footer__contacts-link" href="tel:998994320088"
+									>Admin: +998 99 432-00-88
+								</a>
+							</li>
+							<li class="site-footer__contacts-item">
+								<a class="site-footer__contacts-link" href="tel:998936031616"
+									>Support: +998 93 603-16-16
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="site-footer__bottom">
+					<img
+						class="site-footer__bottom-img"
+						src="./images/footer-bottom.svg"
+						alt="Icon"
+						width="20"
+						height="20"
+					/>
+					<span class="site-footer__bottom-text">
+						Copyright 2022 Reiwa Japanse School
+					</span>
+				</div>
+			</div>
+		</footer>
+		<!-- /site-footer -->
+		<script src="./slick/jquery.min.js"></script>
+		<script src="./slick/slick.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
 </html>

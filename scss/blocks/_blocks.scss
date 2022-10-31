@@ -1,4 +1,21 @@
-@import "visually-hidden";
-@import "container";
-@import "header";
-@import "footer";
+// home page styles
+
+@import 'visually-hidden';
+@import 'container';
+@import 'header';
+@import 'hero';
+@import 'marketing';
+@import 'start';
+@import 'chance';
+@import 'students';
+@import 'info';
+@import 'partners';
+@import 'team';
+@import 'navigation.scss';
+@import 'footer';
+
+// document page styles
+
+@import 'aurora';
+@import 'brand';
+@import 'text';

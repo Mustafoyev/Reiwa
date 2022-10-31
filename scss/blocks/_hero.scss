@@ -1,0 +1,174 @@
+.arrow-wrapper {
+	max-width: 1380px;
+}
+
+.arrow {
+	position: fixed;
+	right: 20px;
+	bottom: 70px;
+	z-index: 10;
+	display: none;
+	width: 52px;
+	height: 52px;
+	background-image: url('../images/arrow-up.svg');
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+	background-position: center;
+	background-color: rgba(169, 169, 169, 0.2);
+	border-radius: 50%;
+}
+
+.hero {
+	padding-bottom: 100px;
+}
+
+.hero__title {
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 76px;
+	line-height: 100%;
+	text-align: center;
+	color: #222222;
+}
+
+.hero__text-wrapper {
+	width: 100%;
+	max-width: 634px;
+	margin: 0 auto;
+}
+
+.hero__text {
+	margin: 0;
+	margin-bottom: 45px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #000000;
+}
+
+.hero__registration {
+	display: none;
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	max-width: 120px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #d10700;
+	border: 1px solid #d10700;
+	border-radius: 50px;
+	transition: all 0.3s ease;
+}
+
+.hero__registration:hover {
+	background: #d10700;
+	color: #ffffff;
+}
+
+.hero__video {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	border-radius: 45px;
+	background-color: #000000;
+}
+
+.hero__video-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 45px;
+}
+
+.hero__video-btn {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+	border: none;
+	background-color: transparent;
+	transform: translate(-50%, -50%);
+	outline: none;
+	cursor: pointer;
+}
+
+.svg-bg {
+	fill: #212121;
+	fill-opacity: 0.8;
+	cursor: pointer;
+}
+
+.hero__video:hover .svg-bg,
+.hero__video-btn:focus .svg-bg {
+	fill: #ff0000;
+	fill-opacity: 1;
+}
+
+.hero__video--active {
+	cursor: pointer;
+}
+
+.hero__video--active .hero__video-btn {
+	display: block;
+}
+
+iframe {
+	border: 0;
+}
+
+@include max-width(885px) {
+	.hero__title {
+		font-size: 56px;
+	}
+}
+
+@include max-width(660px) {
+	.hero__title {
+		font-size: 44px;
+	}
+
+	.hero__text {
+		font-size: 15px;
+		line-height: 18px;
+	}
+}
+
+@include max-width(520px) {
+	.hero {
+		padding-bottom: 50px;
+	}
+
+	.hero__title {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	.hero__text {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.hero__registration {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.hero__video {
+		border-radius: 25px;
+	}
+
+	.hero__video-content {
+		border-radius: 25px;
+	}
+}
