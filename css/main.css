@@ -1,6 +1,7 @@
 /* montserrat-regular - latin */
 @font-face {
   font-family: "Montserrat";
+  font-display: auto;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/montserrat-v25-latin-regular.eot"); /* IE9 Compat Modes */
@@ -9,6 +10,7 @@
 /* montserrat-500 - latin */
 @font-face {
   font-family: "Montserrat";
+  font-display: auto;
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/montserrat-v25-latin-500.eot"); /* IE9 Compat Modes */
@@ -17,6 +19,7 @@
 /* montserrat-600 - latin */
 @font-face {
   font-family: "Montserrat";
+  font-display: auto;
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/montserrat-v25-latin-600.eot"); /* IE9 Compat Modes */
@@ -25,6 +28,7 @@
 /* montserrat-700 - latin */
 @font-face {
   font-family: "Montserrat";
+  font-display: auto;
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/montserrat-v25-latin-700.eot"); /* IE9 Compat Modes */
@@ -33,6 +37,7 @@
 /* poppins-regular - latin */
 @font-face {
   font-family: "Poppins";
+  font-display: auto;
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/poppins-v20-latin-regular.eot"); /* IE9 Compat Modes */
@@ -41,6 +46,7 @@
 /* poppins-500 - latin */
 @font-face {
   font-family: "Poppins";
+  font-display: auto;
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/poppins-v20-latin-500.eot"); /* IE9 Compat Modes */
